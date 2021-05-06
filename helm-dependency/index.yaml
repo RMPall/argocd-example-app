@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  guestbook:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-05-06T15:51:30.951353+01:00"
+    description: A helm chart to test
+    digest: 528c116c9784a741432d443ca25f8d3cde8c991b84f6fc46bb885f1b1459a502
+    name: guestbook
+    type: application
+    urls:
+    - guestbook-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-05-06T15:51:30.95101+01:00"
