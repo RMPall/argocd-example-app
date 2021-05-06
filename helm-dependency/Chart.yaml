@@ -5,6 +5,6 @@ description: A helm chart to test
 version: 0.1.0
 type: application
 dependencies:
-  - name: frontend
-    version: 1.0
+  - name: guestbook
+    version: 0.1.0
     repository: http://localhost:6000
