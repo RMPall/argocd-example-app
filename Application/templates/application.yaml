@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: guestbook
+  namespace: argocd
+spec:
+  project: test
+  source:
+    repoURL: https://github.com/rahulPalliyalil/argocd-example-app
+    targetRevision: HEAD
+    path: guestbook
+  destination:
+    server: https://192.168.64.2:8443
+    namespace: guestbook
